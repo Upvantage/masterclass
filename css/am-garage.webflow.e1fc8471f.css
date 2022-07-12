@@ -1,4 +1,4 @@
-/* Generated on: Mon Jul 11 2022 11:13:15 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Jul 12 2022 23:40:02 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5522,10 +5522,10 @@ img {
 
 .grid-footer-v1---5-column {
   grid-column-gap: 40px;
-  -ms-grid-columns: 2fr 1fr 1fr 1fr auto;
-  grid-template-columns: 2fr 1fr 1fr 1fr auto;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
+  -ms-grid-columns: 2fr 1fr 1fr minmax(auto, auto) auto;
+  grid-template-columns: 2fr 1fr 1fr minmax(auto, auto) auto;
+  -ms-grid-rows: minmax(auto, 0.5fr);
+  grid-template-rows: minmax(auto, 0.5fr);
 }
 
 .social-icon---brix {
