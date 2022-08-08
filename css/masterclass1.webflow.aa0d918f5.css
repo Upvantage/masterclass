@@ -1,4 +1,4 @@
-/* Generated on: Fri Aug 05 2022 11:41:48 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Aug 08 2022 08:09:16 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1019,6 +1019,10 @@ img {
   color: #fff;
 }
 
+.title.text-neutral-100.margin-bottom-15px {
+  color: #191a37;
+}
+
 .title.text-neutral-100.margin-bottom-15px.services-section {
   font-size: 40px;
 }
@@ -1138,7 +1142,7 @@ img {
   padding: 22px 25px;
   border: 1px solid transparent;
   border-radius: 10px;
-  background-color: #14142b;
+  background-color: #191a37;
   -webkit-transform: translate3d(0px, 0px, 0.01px);
   transform: translate3d(0px, 0px, 0.01px);
   -webkit-transition: border-color 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
@@ -1154,8 +1158,8 @@ img {
 }
 
 .button-primary:hover {
-  border-color: #3022cd;
-  background-color: #3022cd;
+  border-color: #3662ac;
+  background-color: #284999;
   -webkit-transform: translate3d(0px, -2px, 0.01px);
   transform: translate3d(0px, -2px, 0.01px);
   color: #fff;
@@ -1189,6 +1193,15 @@ img {
   border-radius: 8px;
   font-size: 16px;
   line-height: 1.125em;
+}
+
+.button-primary.small.header-button {
+  background-color: #191a37;
+}
+
+.button-primary.small.header-button:hover {
+  border-color: #284999;
+  background-color: #284999;
 }
 
 .button-primary.large {
@@ -1234,7 +1247,7 @@ img {
 }
 
 .text-200.header-link:hover {
-  color: #4a3aff;
+  color: #3662ac;
 }
 
 .text-200.link {
@@ -1245,7 +1258,7 @@ img {
 }
 
 .text-200.link:hover {
-  color: #4a3aff;
+  color: #3662ac;
 }
 
 .text-200.link.terms {
@@ -1810,7 +1823,7 @@ img {
 }
 
 .card-default-line-accent-2.bg-secondary-2 {
-  background-color: #4a3aff;
+  background-color: #284999;
 }
 
 .slider {
@@ -2048,7 +2061,7 @@ img {
 }
 
 .text-color-primary-1 {
-  color: #4a3aff;
+  color: #3662ac;
 }
 
 .checkbox-item--brix {
@@ -2373,7 +2386,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 1000000px;
-  background-color: #4a3aff;
+  background-color: #3662ac;
   -webkit-transform: scale3d(1, 1, 1.01);
   transform: scale3d(1, 1, 1.01);
   -webkit-transition: background-color 300ms ease, -webkit-transform 300ms ease;
@@ -2387,7 +2400,7 @@ img {
 }
 
 .slider-right-arrow:hover {
-  background-color: #3022cd;
+  background-color: #3662ac;
   -webkit-transform: scale3d(0.95, 0.95, 1.01);
   transform: scale3d(0.95, 0.95, 1.01);
 }
@@ -2595,15 +2608,15 @@ img {
 }
 
 .process-step-dot.bg-primary-1 {
-  background-color: #4a3aff;
+  background-color: #3662ac;
 }
 
 .process-step-dot.bg-secondary-2 {
-  background-color: #4a3aff;
+  background-color: #3662ac;
 }
 
 .process-step-dot.bg-secondary-3 {
-  background-color: #4a3aff;
+  background-color: #3662ac;
 }
 
 .submit-button---brix {
@@ -3339,6 +3352,10 @@ img {
   text-transform: uppercase;
 }
 
+.subtitle-3.text-neutral-100 {
+  color: #3662ac;
+}
+
 .text-401 {
   font-size: 18px;
   line-height: 1.111em;
@@ -3517,7 +3534,7 @@ img {
 }
 
 .icon-slider {
-  color: #000;
+  color: #191a37;
 }
 
 .dropdown-pd-2 {
@@ -4673,6 +4690,7 @@ img {
 }
 
 .h2-slide {
+  color: #191a37;
   font-size: 26px;
 }
 
@@ -5699,6 +5717,10 @@ img {
   transition: color 300ms ease;
 }
 
+.link-text:hover {
+  color: #3662ac;
+}
+
 .section-3 {
   padding-top: 176px;
   padding-bottom: 176px;
@@ -5856,8 +5878,8 @@ img {
 }
 
 .category:hover {
-  border-color: #4a3aff;
-  background-color: #4a3aff;
+  border-color: #3662ac;
+  background-color: #3662ac;
   color: #fff;
 }
 
@@ -5870,6 +5892,11 @@ img {
 
 .category.all {
   margin-right: 16px;
+}
+
+.category.all.w--current {
+  border-color: #3662ac;
+  background-color: #3662ac;
 }
 
 .tag {
@@ -5961,6 +5988,14 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.link-6 {
+  color: #3662ac;
+}
+
+.heading-7 {
+  font-size: 22px;
 }
 
 @media screen and (min-width: 1440px) {
