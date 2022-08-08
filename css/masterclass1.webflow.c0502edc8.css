@@ -1,4 +1,4 @@
-/* Generated on: Mon Aug 08 2022 08:10:26 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Aug 08 2022 09:19:15 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2670,7 +2670,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 1000000px;
-  background-color: #4a3aff;
+  background-color: #3662ac;
   -webkit-transform: scale3d(1, 1, 1.01);
   transform: scale3d(1, 1, 1.01);
   -webkit-transition: background-color 300ms ease, -webkit-transform 300ms ease;
