@@ -1,4 +1,4 @@
-/* Generated on: Mon Aug 08 2022 10:14:16 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Aug 10 2022 11:07:55 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5885,7 +5885,7 @@ img {
 
 .category.w--current {
   border-color: #4a3aff;
-  background-color: #4a3aff;
+  background-color: #3662ac;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.05);
   color: #fff;
 }
@@ -5928,6 +5928,10 @@ img {
 
 .margin-top-auto {
   margin-top: auto;
+}
+
+.margin-top-auto.margin-top-40px {
+  margin-top: 21px;
 }
 
 .content-link-wrapper {
@@ -5996,6 +6000,40 @@ img {
 
 .heading-7 {
   font-size: 22px;
+}
+
+.link-arrow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #4a3aff;
+  line-height: 1.111em;
+  text-decoration: none;
+}
+
+.link-arrow:hover {
+  color: #4a3aff;
+}
+
+.link-arrow.margin-top-auto {
+  color: #127bbf;
+}
+
+.link-arrow-text {
+  margin-right: 13px;
+}
+
+.link-arrow-icon {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 1440px) {
