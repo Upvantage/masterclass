@@ -1,4 +1,4 @@
-/* Generated on: Wed Aug 17 2022 09:01:30 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Aug 17 2022 09:46:19 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3506,15 +3506,17 @@ img {
 
 .subtitle-3 {
   margin-bottom: 20px;
-  color: #4a3aff;
+  color: #fff;
   font-size: 14px;
   line-height: 1.125em;
+  font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 .subtitle-3.text-neutral-100 {
   color: #3662ac;
+  font-size: 16px;
 }
 
 .text-401 {
