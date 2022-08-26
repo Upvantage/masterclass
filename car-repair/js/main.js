@@ -4,9 +4,11 @@ $( document ).ready(function() {
     history.scrollRestoration = "manual";
   }
   const moveToTop = () => {
-    console.log('test');
-    $("html, body").animate ({scrollTop: 0});
-    history.replaceState(null, null, " ");
+    setTimeout(() => {
+      console.log('test');
+      $("html, body").animate ({scrollTop: 0});
+      history.replaceState(null, null, " ");
+    }, 1000);
   }
   moveToTop();
   let years = [
