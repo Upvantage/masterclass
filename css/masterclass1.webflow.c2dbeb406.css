@@ -1,4 +1,4 @@
-/* Generated on: Fri Aug 26 2022 20:08:01 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Aug 26 2022 20:09:09 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7114,6 +7114,10 @@ img {
   text-align: center;
 }
 
+.banner-block.phone {
+  margin-top: 20px;
+}
+
 .nav-link {
   padding: 10px 24px;
   -webkit-transition: all 350ms ease;
@@ -10768,6 +10772,15 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .link-wrapper.color-grey {
+    padding-left: 10px;
+  }
+
+  .link-wrapper.color-grey.top {
+    padding-right: 10px;
+    padding-left: 0px;
+  }
+
   .footer-logo---brix {
     width: 100%;
     max-width: 240px;
@@ -11035,6 +11048,7 @@ img {
   }
 
   .banner-block.phone {
+    margin-top: 20px;
     font-size: 12px;
   }
 }

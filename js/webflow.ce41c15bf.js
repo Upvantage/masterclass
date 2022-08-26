@@ -16239,7 +16239,7 @@ Webflow.define('brand', module.exports = function ($) {
     $(brandElement).attr('style', fullScreen ? 'display: none !important;' : '');
   }
 
-  function createBadge() { return
+  function createBadge() { return return
     var $brand = $('<a class="w-webflow-badge"></a>').attr('href', 'https://webflow.com?utm_campaign=brandjs');
     var $logoArt = $('<img>').attr('src', 'https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg').attr('alt', '').css({
       marginRight: '8px',
