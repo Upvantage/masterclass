@@ -1757,6 +1757,12 @@ $( document ).ready(function() {
                       <h5>I am looking to</h5>
                       <div class="checkbox-wrapper car-types" id="car-type">
                         <div class="label-wrapper">
+                          <input type="checkbox" class="car-type" value="Servicing" id="servicing">
+                          <label for="servicing">
+                            <span class="text">Servicing</span>
+                          </label>
+                        </div>
+                        <div class="label-wrapper">
                           <input type="checkbox" class="car-type" value="Mechanical Repairs" id="mechanical-repairs" checked="checked">
                           <label for="mechanical-repairs">
                             <span class="text">Mechanical Repairs</span>
@@ -1772,12 +1778,6 @@ $( document ).ready(function() {
                           <input type="checkbox" class="car-type" value="Body Repairing & Painting" id="body-repairing">
                           <label for="body-repairing">
                             <span class="text">Body Repairing & Painting</span>
-                          </label>
-                        </div>
-                        <div class="label-wrapper">
-                          <input type="checkbox" class="car-type" value="Servicing" id="servicing">
-                          <label for="servicing">
-                            <span class="text">Servicing</span>
                           </label>
                         </div>
                         <div class="label-wrapper">
