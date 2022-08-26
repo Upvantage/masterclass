@@ -4,6 +4,7 @@ $( document ).ready(function() {
     history.scrollRestoration = "manual";
   }
   const moveToTop = () => {
+    console.log('test');
     $("html, body").animate ({scrollTop: 0});
     history.replaceState(null, null, " ");
   }
