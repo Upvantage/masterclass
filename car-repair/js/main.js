@@ -3,9 +3,11 @@ $( document ).ready(function() {
   if ("scrollRestoration" in history) {
     history.scrollRestoration = "manual";
   }
-  window.scrollTo(0, 0);
-
-  history.replaceState(null, null, " ");
+  moveToTop();
+  const moveToTop = () => {
+    $("html, body").animate ({scrollTop: 0});
+    history.replaceState(null, null, " ");
+  }
   let years = [
     "Older",
     "2005",
@@ -1551,10 +1553,7 @@ $( document ).ready(function() {
   const openModalElements = document.querySelectorAll(".open-modal");
   for (let i = 0; i < openModalElements.length; i++) {
     openModalElements[i].addEventListener('click', function handleClick(event) {
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        history.replaceState(null, null, " ");    
-      }, 100);
+      moveToTop();
       emptyFilledData();
       $(".slide").eq(0).addClass("active").siblings().removeClass("active");
       $("#animatedModal").css("display", "block");
@@ -2105,8 +2104,7 @@ $( document ).ready(function() {
     } else {
       move(20);
     }
-    window.scrollTo(0, 0);
-    history.replaceState(null, null, " ");  
+    moveToTop();
   }
   
   // back button
