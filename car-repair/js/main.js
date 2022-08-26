@@ -3,11 +3,11 @@ $( document ).ready(function() {
   if ("scrollRestoration" in history) {
     history.scrollRestoration = "manual";
   }
-  moveToTop();
   const moveToTop = () => {
     $("html, body").animate ({scrollTop: 0});
     history.replaceState(null, null, " ");
   }
+  moveToTop();
   let years = [
     "Older",
     "2005",
