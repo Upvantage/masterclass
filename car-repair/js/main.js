@@ -1594,7 +1594,7 @@ $( document ).ready(function() {
                 fill="#6C6C6C"></path>
             </svg>
           </button>
-          <h5 class="modal-title" id="modalLabel">Sell My Car</h5>
+          <h5 class="modal-title" id="modalLabel">Repair/Service My Car</h5>
           <span class="cross-icon btn-close close-animatedModal" data-dismiss="modal">
             <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -1752,8 +1752,8 @@ $( document ).ready(function() {
                           <span id="mileage-max-label" data-label="350,000 Kilometers" data-label-sm="+350k Kilometers"></span>
                         </div>
                       </div>
-                    </div>
-                    <div class="block mb-5">
+                      </div>
+                      <div class="block mb-5">
                       <h5>I am looking to</h5>
                       <div class="checkbox-wrapper car-types" id="car-type">
                         <div class="label-wrapper">
