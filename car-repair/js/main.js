@@ -5,7 +5,6 @@ $( document ).ready(function() {
   }
   const moveToTop = () => {
     setTimeout(() => {
-      console.log('test');
       $("html, body").animate ({scrollTop: 0});
       history.replaceState(null, null, " ");
     }, 1000);
