@@ -1646,62 +1646,58 @@ $( document ).ready(function() {
                   </div>
                   <div class="car-makes radio-wrapper" id="cars-list">
                     <div class="label-wrapper">
-                      <input type="radio" name="car" value="Toyota" id="toyota">
-                      <label for="toyota">
-                        <img src="images/toyota.svg" alt="Toyota">
-                      </label>
-                    </div>
-                    <div class="label-wrapper">
-                      <input type="radio" name="car" value="Nissan" id="nissan">
-                      <label for="nissan">
-                        <img src="images/nissan.png" alt="Nissan">
-                      </label>
-                    </div>
-                    <div class="label-wrapper">
-                      <input type="radio" name="car" value="Ford" id="ford">
-                      <label for="ford">
-                        <img src="images/ford.png" alt="Ford">
-                      </label>
-                    </div>
-
-                    <div class="label-wrapper">
                       <input type="radio" name="car" value="BMW" id="bmw">
                       <label for="bmw">
-                        <img src="images/bmw.svg" alt="BMW">
+                        <span class="text">BMW</span>
                       </label>
                     </div>
 
                     <div class="label-wrapper">
                       <input type="radio" name="car" value="Honda" id="honda">
                       <label for="honda">
-                        <img src="images/honda.png" alt="Honda">
+                        <span class="text">Honda</span>
                       </label>
                     </div>
-
-                    <div class="label-wrapper">
-                      <input type="radio" name="car" value="Mitsubishi" id="mitsubishi">
-                      <label for="mitsubishi">
-                        <img src="images/mitsubishi.svg" alt="Mitsubishi">
-                      </label>
-                    </div>
-
-                    <div class="label-wrapper">
-                      <input type="radio" name="car" value="Volkswagen" id="volkswagen">
-                      <label for="volkswagen">
-                        <img src="images/volkswagen.png" alt="Volkswagen">
-                      </label>
-                    </div>
-
                     <div class="label-wrapper">
                       <input type="radio" name="car" value="Audi" id="audi">
                       <label for="audi">
-                        <img src="images/audi.png" alt="Audi">
+                        <span class="text">Audi</span>
                       </label>
                     </div>
                     <div class="label-wrapper">
                       <input type="radio" name="car" value="Mercedes" id="mercedes">
                       <label for="mercedes">
-                        <img src="images/mercedes.svg" alt="Mercedes">
+                        <span class="text">Mercedes</span>
+                      </label>
+                    </div>
+                    <div class="label-wrapper">
+                      <input type="radio" name="car" value="Bently" id="bently">
+                      <label for="bently">
+                        <span class="text">Bently</span>
+                      </label>
+                    </div>
+                    <div class="label-wrapper">
+                      <input type="radio" name="car" value="Maserati" id="maserati">
+                      <label for="maserati">
+                        <span class="text">Maserati</span>
+                      </label>
+                    </div>
+                    <div class="label-wrapper">
+                      <input type="radio" name="car" value="Lamborghini" id="lamborghini">
+                      <label for="lamborghini">
+                        <span class="text">Lamborghini</span>
+                      </label>
+                    </div>
+                    <div class="label-wrapper">
+                      <input type="radio" name="car" value="Ferrari" id="ferrari">
+                      <label for="ferrari">
+                        <span class="text">Ferrari</span>
+                      </label>
+                    </div>
+                    <div class="label-wrapper">
+                      <input type="radio" name="car" value="Land Rover" id="land-rover">
+                      <label for="land-rover">
+                        <span class="text">Land Rover</span>
                       </label>
                     </div>
                     <div class="label-wrapper">
