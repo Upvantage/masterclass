@@ -1778,9 +1778,9 @@ $( document ).ready(function() {
                           </label>
                         </div>
                         <div class="label-wrapper">
-                          <input type="checkbox" class="car-type" value="Services" id="services">
-                          <label for="services">
-                            <span class="text">Services</span>
+                          <input type="checkbox" class="car-type" value="Servicing" id="servicing">
+                          <label for="servicing">
+                            <span class="text">Servicing</span>
                           </label>
                         </div>
                         <div class="label-wrapper">
@@ -2252,7 +2252,7 @@ $( document ).ready(function() {
       };
       console.log(data);
       let request = $.ajax({
-        // url: "https://hook.us1.make.com/pdcmj0p7umq65wi2247kzzxur2qqd8l3",
+        url: "https://hook.us1.make.com/1x1etbj8jt0eh49pk4jhl1gmuthxnjx5",
         type: "post",
         data: data
       });
