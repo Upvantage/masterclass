@@ -1674,9 +1674,9 @@ $( document ).ready(function() {
                       </label>
                     </div>
                     <div class="label-wrapper">
-                      <input type="radio" name="car" value="Bently" id="bently">
-                      <label for="bently">
-                        <span class="text">Bently</span>
+                      <input type="radio" name="car" value="Bentley" id="bentley">
+                      <label for="bentley">
+                        <span class="text">Bentley</span>
                       </label>
                     </div>
                     <div class="label-wrapper">
