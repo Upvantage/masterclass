@@ -1,4 +1,4 @@
-/* Generated on: Sat Aug 27 2022 11:58:32 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Aug 27 2022 12:05:21 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -7572,7 +7572,7 @@ img {
 
 @media screen and (min-width: 1440px) {
   .section.bg-secondary-4.shop-hero.services-section._2 {
-    display: block;
+    display: none;
   }
 
   .dropdown-menu-text---brix {
