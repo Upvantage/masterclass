@@ -1563,7 +1563,8 @@ $( document ).ready(function() {
   }
   // open make
   if(document.getElementById("other-make")) {
-    document.getElementById("other-make").addEventListener('click', function handleClick (event) {
+    document.getElementById("other-make").addEventListener('click', function () {
+      document.querySelector(".open-modal").click();
       setTimeout(() => {
         document.getElementById('other-car').click();
       }, 500);
